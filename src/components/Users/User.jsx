@@ -7,6 +7,7 @@ const User = ({ user }) => {
         "padding": "20px",
         "border-radius": "15px"
     }
+
     return (
         <div style={userStyle}>
             <h3>Name: {user.name}</h3>
